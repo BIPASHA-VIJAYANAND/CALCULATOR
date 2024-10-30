@@ -7,7 +7,7 @@ def add_to_calculation(symbol):
     calculation +=str(symbol)
     text_result.delete(1.0,"end")
     text_result.insert(1.0,calculation)
-"10+3*(4-2)"
+
 def evaluate_calculation():
     global calculation
     try:
